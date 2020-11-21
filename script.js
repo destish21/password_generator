@@ -2,19 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-
-//   passwordText.value = password
-// }
-
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
-
-
-
-// Write password to the #password input
 function writePassword() {
   console.log('in write password')
   var passlength = prompt("How long you do want it")// take user input
@@ -25,10 +12,12 @@ var passwordText = document.querySelector("#password");
 
 passwordText.value = password
 }
+
 function generatePassword (length){
 // confirm user wants uppercase, add uppercase to chars 
-var chars = ["x"]
-var lowercase = ["a", "b"]
+var chars = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
+
+var lowercase = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
 var wantsLowercase= confirm("you want lowercase?")
 if(wantsLowercase){
   //add the lowercase array into the chars array
@@ -79,15 +68,6 @@ writePassword);
 
 
 
-// Generate password function
-//   console.log('typesArr', TypesArr);
-// const randomFunction = {
-//   upper: getRandomUpper,
-//   lower: getRandomLower,
-//   number: getRandomNumber,
-//   symbol: getRandomSymbol,
-// const symbols = '!@#$%^&(){}[]=<>/,.;'
 
-// };
 
 
