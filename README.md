@@ -10,4 +10,4 @@ I use lowercase, uppercase, symbol and number by array method to declear variabl
 
 ![password_generator](screenshot11.png)
 
-URl:  https://destish21.github.io/password_generator/
+URL:  https://destish21.github.io/password_generator/
