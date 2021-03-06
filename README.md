@@ -8,6 +8,6 @@ I made the generatorpassword ristriction if you put (lower  < 8) or (above > 128
 I try my script.js to short and brief.to under stand it in 69 line total.
 I use lowercase, uppercase, symbol and number by array method to declear variables.
 
-![password_generator](screenshot11.png)
+![password_generator](/assets/images/Screenshot.png)
 
 URl:  https://destish21.github.io/password_generator/
